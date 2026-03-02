@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:daylst.com)",
+      "WebFetch(domain:www.reactbits.dev)",
+      "WebSearch",
+      "WebFetch(domain:reactbits.dev)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(curl:*)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\(''mcpServers'',{}\\), indent=2\\)\\)\")",
+      "Bash(python3:*)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__query-docs",
+      "WebFetch(domain:www.npmjs.com)",
+      "WebFetch(domain:deepwiki.com)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npx shadcn@latest:*)",
+      "Bash(npm install:*)",
+      "Bash(head:*)",
+      "Bash(kill %1:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "shadcn"
+  ]
+}
