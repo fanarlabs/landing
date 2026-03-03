@@ -1,22 +1,12 @@
 import Image from "next/image";
-import { Twitter, Github, Linkedin, Mail } from "lucide-react";
+import { Instagram, Mail } from "lucide-react";
 
 const socialLinks = [
   {
     label: "Twitter / X",
-    href: "https://x.com/fanar_ai",
-    icon: Twitter,
-  },
-  {
-    label: "GitHub",
-    href: "https://github.com/fanar-ai",
-    icon: Github,
-  },
-  {
-    label: "LinkedIn",
-    href: "https://linkedin.com/company/fanar-ai",
-    icon: Linkedin,
-  },
+    href: "https://www.instagram.com/daylst.app/",
+    icon: Instagram,
+  }
 ];
 
 export default function Footer() {
@@ -40,11 +30,11 @@ export default function Footer() {
         {/* Right: Socials + Email */}
         <div className="flex items-center gap-5">
           <a
-            href="mailto:hello@fanar.ai"
+            href="mailto:info@daylst.com"
             className="text-sm text-white/40 transition-colors hover:text-white"
           >
             <Mail className="inline-block h-4 w-4 mr-1.5 -mt-0.5" />
-            hello@fanar.ai
+            info@daylst.com
           </a>
           <span className="h-4 w-px bg-white/10" />
           {socialLinks.map((link) => (
