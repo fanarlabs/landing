@@ -39,14 +39,6 @@ export default function Hero() {
             thickness={1}
           >
             <div className="flex items-center gap-2.5">
-              <Image
-                src="/images/fanar-logo-dark.png"
-                alt="Fanar"
-                width={18}
-                height={18}
-                className="w-[18px] h-[18px]"
-                priority
-              />
               <ShinyText
                 text="AI-Powered Apps Company"
                 speed={3}
