@@ -9,7 +9,7 @@ function DaylstCard() {
       {/* Card Header */}
       <div className="mb-6 flex items-center gap-4">
         <Image
-          src="/images/daylst-logo-light.png"
+          src="/images/daylst-logo-dark.png"
           alt="Daylst"
           width={48}
           height={48}
@@ -88,7 +88,7 @@ function TouridaCard() {
       {/* Card Header */}
       <div className="mb-6 flex items-center gap-4">
         <Image
-          src="/images/tourida-logo-light.png"
+          src="/images/tourida-logo-dark.png"
           alt="Tourida"
           width={48}
           height={48}
