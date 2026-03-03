@@ -19,7 +19,8 @@
       "Bash(npm install:*)",
       "Bash(head:*)",
       "Bash(kill %1:*)",
-      "mcp__shadcn__search_items_in_registries"
+      "mcp__shadcn__search_items_in_registries",
+      "Bash(sips:*)"
     ]
   },
   "enableAllProjectMcpServers": true,

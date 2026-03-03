@@ -11,9 +11,9 @@ function DaylstCard() {
         <Image
           src="/images/daylst-logo-dark.png"
           alt="Daylst"
-          width={48}
+          width={40}
           height={48}
-          className="h-12 w-12 rounded-xl"
+          className="h-12 w-10 object-contain"
         />
         <div>
           <h3 className="text-xl font-semibold text-white">Daylst</h3>
@@ -90,9 +90,9 @@ function TouridaCard() {
         <Image
           src="/images/tourida-logo-dark.png"
           alt="Tourida"
-          width={48}
-          height={48}
-          className="h-12 w-12 rounded-xl"
+          width={96}
+          height={40}
+          className="h-10 w-24 object-contain"
         />
         <div>
           <h3 className="text-xl font-semibold text-white">Tourida</h3>
